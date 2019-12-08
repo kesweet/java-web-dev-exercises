@@ -7,9 +7,9 @@ public class ConeComparator implements Comparator<Cone> {
     @Override
     public int compare(Cone o1, Cone o2) {
         if (o1.getCost() > o2.getCost()) {
-            return 1;
+            return (int) (o1.getCost() - o2.getCost());
         } else if (o1.getCost() < o2.getCost()) {
-            return -1;
+            return (int) (o1.getCost() - o2.getCost());
         } else {
             return 0;
         }

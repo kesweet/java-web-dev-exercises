@@ -5,5 +5,8 @@ public class Main {
         HouseCat garfield = new HouseCat("Garfield", 12);
         garfield.eat();
         System.out.println(garfield.isTired());
+
+        Cat lion = new HouseCat("Lion", 10);
+        System.out.println(lion.noise()); //will call the Overriding HouseCat method
     }
 }

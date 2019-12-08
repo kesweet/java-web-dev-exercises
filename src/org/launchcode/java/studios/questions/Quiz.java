@@ -43,17 +43,6 @@ public class Quiz {
         this.questions = questions;
     }
 
-    public void addQuestion(Question question) {
-        if (!questionObjects.contains(question)) {
-            this.questionObjects.add(question);
-            Question question;
-            this.questionObjects.
-            System.out.println("Question added!");
-            questionNumber++;
-        } else {
-            System.out.println("Question already exists in this quiz.");
-        }
-    }
 
     public void runTheQuiz() {
         for (int i = 0; i < this.questionObjects.size(); i++) {

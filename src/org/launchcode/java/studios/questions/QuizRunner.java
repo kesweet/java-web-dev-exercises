@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class QuizRunner {
     public static void main(String[] args) {
-        Question question = new CheckBox();
+        Question question;
         Quiz quiz = new Quiz("My Quiz");
-        quiz.addQuestion();
     }
 }
